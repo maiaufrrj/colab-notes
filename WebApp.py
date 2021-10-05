@@ -16,9 +16,11 @@ https://support.sisense.com/kb/en/article/visualizing-forecasting-data-prophet-i
 #!pip install --upgrade plotly
 
 # importar os pacotes necessários
+import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
+import seaborn as sns
 
 #importar o arquivo csv do meu repositório público no github 
 dataset='https://raw.githubusercontent.com/maiaufrrj/superstore_data/main/superstore_dataset2011-2015.csv'
